@@ -1,0 +1,146 @@
++++++++++++++++++++++++ Reporting Accuracy over whole subepoch +++++++++++++++++++++++
+TRAINING: Epoch #4, Subepoch #19, Overall:	 mean accuracy:   	0.9830	=> Correctly-Classified-Voxels/All-Predicted-Voxels = 9103336/9261000
+TRAINING: Epoch #4, Subepoch #19, Overall:	 mean cost:      	0.37040
++++++++++++++++ Reporting Accuracy over whole subepoch for Class-0 ++++++++ [Whole Foreground (Pos) Vs Background (Neg)] ++++++++++++++++
+TRAINING: Epoch #4, Subepoch #19, Class-0:	 mean accuracy:   	0.9830	=> (TruePos+TrueNeg)/All-Predicted-Voxels = 9103336/9261000
+TRAINING: Epoch #4, Subepoch #19, Class-0:	 mean sensitivity:	0.2577	=> TruePos/RealPos = 48944/189916
+TRAINING: Epoch #4, Subepoch #19, Class-0:	 mean precision:	0.7457	=> TruePos/(TruePos+FalsePos) = 48944/65636
+TRAINING: Epoch #4, Subepoch #19, Class-0:	 mean specificity:	0.9982	=> TrueNeg/RealNeg = 9054392/9071084
+TRAINING: Epoch #4, Subepoch #19, Class-0:	 mean Dice:       	0.3830
++++++++++++++++ Reporting Accuracy over whole subepoch for Class-1 ++++++++ [This Class (Pos) Vs All Others (Neg)] ++++++++++++++++
+TRAINING: Epoch #4, Subepoch #19, Class-1:	 mean accuracy:   	0.9830	=> (TruePos+TrueNeg)/All-Predicted-Voxels = 9103336/9261000
+TRAINING: Epoch #4, Subepoch #19, Class-1:	 mean sensitivity:	0.2577	=> TruePos/RealPos = 48944/189916
+TRAINING: Epoch #4, Subepoch #19, Class-1:	 mean precision:	0.7457	=> TruePos/(TruePos+FalsePos) = 48944/65636
+TRAINING: Epoch #4, Subepoch #19, Class-1:	 mean specificity:	0.9982	=> TrueNeg/RealNeg = 9054392/9071084
+TRAINING: Epoch #4, Subepoch #19, Class-1:	 mean Dice:       	0.3830
+=============== LOGGING TO TENSORBOARD ===============
+Logging TRAINING metrics
+Epoch: 4 | Subepoch 19
+Step number (index of subepoch since start): 99
+--- Logging average metrics for all classes ---
+Logged metrics: ['samples: accuracy', 'samples: cost']
+--- Logging per class metrics ---
+Logged metrics: ['samples: accuracy', 'samples: sensitivity', 'samples: precision', 'samples: specificity', 'samples: Dice']
+======================================================
+TIMING: Training on batches of this subepoch #19 lasted: 47.0 secs.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~ Epoch #4 finished. Reporting Accuracy over whole epoch. ~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+( >>>>>>>>>>>>>>>>>>>> Reporting Accuracy over whole epoch <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+VALIDATION: Epoch #4, Overall:	 mean accuracy of epoch:	0.9984	=> Correctly-Classified-Voxels/All-Predicted-Voxels
+VALIDATION: Epoch #4, Overall:	 mean accuracy of each subepoch:	[ 1.0000 0.9924 1.0000 0.9990 0.9994 0.9976 0.9978 0.9942 0.9994 0.9994 0.9998 0.9996 1.0000 0.9996 0.9996 0.9990 0.9938 0.9996 0.9980 0.9994 ]
+>>>>>>>>>>>> Reporting Accuracy over whole epoch for Class-0 >>>>>>>>> [Whole Foreground (Pos) Vs Background (Neg)] <<<<<<<<<<<<<
+VALIDATION: Epoch #4, Class-0:	 mean accuracy of epoch:	0.9984	=> (TruePos+TrueNeg)/All-Predicted-Voxels
+VALIDATION: Epoch #4, Class-0:	 mean sensitivity of epoch:	0.0000	=> TruePos/RealPos
+VALIDATION: Epoch #4, Class-0:	 mean precision of epoch:	0.0000	=> TruePos/(TruePos+FalsePos)
+VALIDATION: Epoch #4, Class-0:	 mean specificity of epoch:	0.9984	=> TrueNeg/RealNeg
+VALIDATION: Epoch #4, Class-0:	 mean Dice of epoch:    	0.0000
+VALIDATION: Epoch #4, Class-0:	 mean accuracy of each subepoch:	[ 1.0000 0.9924 1.0000 0.9990 0.9994 0.9976 0.9978 0.9942 0.9994 0.9994 0.9998 0.9996 1.0000 0.9996 0.9996 0.9990 0.9938 0.9996 0.9980 0.9994 ]
+VALIDATION: Epoch #4, Class-0:	 mean sensitivity of each subepoch:	[ N/A N/A N/A N/A N/A N/A N/A N/A N/A N/A N/A 0.0000 N/A N/A N/A N/A N/A N/A N/A N/A ]
+VALIDATION: Epoch #4, Class-0:	 mean precision of each subepoch:	[ N/A 0.0000 N/A 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 N/A 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 ]
+VALIDATION: Epoch #4, Class-0:	 mean specificity of each subepoch:	[ 1.0000 0.9924 1.0000 0.9990 0.9994 0.9976 0.9978 0.9942 0.9994 0.9994 0.9998 0.9998 1.0000 0.9996 0.9996 0.9990 0.9938 0.9996 0.9980 0.9994 ]
+VALIDATION: Epoch #4, Class-0:	 mean Dice of each subepoch:    	[ N/A N/A N/A N/A N/A N/A N/A N/A N/A N/A N/A 0.0000 N/A N/A N/A N/A N/A N/A N/A N/A ]
+>>>>>>>>>>>> Reporting Accuracy over whole epoch for Class-1 >>>>>>>>> [This Class (Pos) Vs All Others (Neg)] <<<<<<<<<<<<<
+VALIDATION: Epoch #4, Class-1:	 mean accuracy of epoch:	0.9984	=> (TruePos+TrueNeg)/All-Predicted-Voxels
+VALIDATION: Epoch #4, Class-1:	 mean sensitivity of epoch:	0.0000	=> TruePos/RealPos
+VALIDATION: Epoch #4, Class-1:	 mean precision of epoch:	0.0000	=> TruePos/(TruePos+FalsePos)
+VALIDATION: Epoch #4, Class-1:	 mean specificity of epoch:	0.9984	=> TrueNeg/RealNeg
+VALIDATION: Epoch #4, Class-1:	 mean Dice of epoch:    	0.0000
+VALIDATION: Epoch #4, Class-1:	 mean accuracy of each subepoch:	[ 1.0000 0.9924 1.0000 0.9990 0.9994 0.9976 0.9978 0.9942 0.9994 0.9994 0.9998 0.9996 1.0000 0.9996 0.9996 0.9990 0.9938 0.9996 0.9980 0.9994 ]
+VALIDATION: Epoch #4, Class-1:	 mean sensitivity of each subepoch:	[ N/A N/A N/A N/A N/A N/A N/A N/A N/A N/A N/A 0.0000 N/A N/A N/A N/A N/A N/A N/A N/A ]
+VALIDATION: Epoch #4, Class-1:	 mean precision of each subepoch:	[ N/A 0.0000 N/A 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 N/A 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 ]
+VALIDATION: Epoch #4, Class-1:	 mean specificity of each subepoch:	[ 1.0000 0.9924 1.0000 0.9990 0.9994 0.9976 0.9978 0.9942 0.9994 0.9994 0.9998 0.9998 1.0000 0.9996 0.9996 0.9990 0.9938 0.9996 0.9980 0.9994 ]
+VALIDATION: Epoch #4, Class-1:	 mean Dice of each subepoch:    	[ N/A N/A N/A N/A N/A N/A N/A N/A N/A N/A N/A 0.0000 N/A N/A N/A N/A N/A N/A N/A N/A ]
+>>>>>>>>>>>>>>>>>>>>>>>>> End Of Accuracy Report at the end of Epoch <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+( >>>>>>>>>>>>>>>>>>>> Reporting Accuracy over whole epoch <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+TRAINING: Epoch #4, Overall:	 mean accuracy of epoch:	0.9858	=> Correctly-Classified-Voxels/All-Predicted-Voxels
+TRAINING: Epoch #4, Overall:	 mean cost of epoch:    	0.36703
+TRAINING: Epoch #4, Overall:	 mean accuracy of each subepoch:	[ 0.9828 0.9895 0.9865 0.9874 0.9843 0.9874 0.9847 0.9871 0.9869 0.9849 0.9852 0.9857 0.9867 0.9863 0.9866 0.9843 0.9861 0.9853 0.9853 0.9830 ]
+TRAINING: Epoch #4, Overall:	 mean cost of each subepoch:    	[ 0.37863 0.36162 0.36550 0.36428 0.37338 0.36441 0.36962 0.36412 0.36423 0.37230 0.36750 0.36643 0.36473 0.36598 0.36439 0.36963 0.36183 0.36748 0.36416 0.37040 ]
+>>>>>>>>>>>> Reporting Accuracy over whole epoch for Class-0 >>>>>>>>> [Whole Foreground (Pos) Vs Background (Neg)] <<<<<<<<<<<<<
+TRAINING: Epoch #4, Class-0:	 mean accuracy of epoch:	0.9858	=> (TruePos+TrueNeg)/All-Predicted-Voxels
+TRAINING: Epoch #4, Class-0:	 mean sensitivity of epoch:	0.2206	=> TruePos/RealPos
+TRAINING: Epoch #4, Class-0:	 mean precision of epoch:	0.7390	=> TruePos/(TruePos+FalsePos)
+TRAINING: Epoch #4, Class-0:	 mean specificity of epoch:	0.9987	=> TrueNeg/RealNeg
+TRAINING: Epoch #4, Class-0:	 mean Dice of epoch:    	0.3377
+TRAINING: Epoch #4, Class-0:	 mean accuracy of each subepoch:	[ 0.9828 0.9895 0.9865 0.9874 0.9843 0.9874 0.9847 0.9871 0.9869 0.9849 0.9852 0.9857 0.9867 0.9863 0.9866 0.9843 0.9861 0.9853 0.9853 0.9830 ]
+TRAINING: Epoch #4, Class-0:	 mean sensitivity of each subepoch:	[ 0.2443 0.1698 0.2770 0.3173 0.2229 0.2155 0.2309 0.1786 0.2668 0.1069 0.2301 0.0976 0.2657 0.1770 0.2773 0.2371 0.2294 0.1960 0.2145 0.2577 ]
+TRAINING: Epoch #4, Class-0:	 mean precision of each subepoch:	[ 0.7828 0.6952 0.7543 0.8272 0.7588 0.7439 0.7492 0.6687 0.7990 0.6349 0.7549 0.6209 0.7853 0.6903 0.7785 0.7624 0.7463 0.7238 0.7588 0.7457 ]
+TRAINING: Epoch #4, Class-0:	 mean specificity of each subepoch:	[ 0.9986 0.9991 0.9985 0.9989 0.9987 0.9989 0.9986 0.9987 0.9989 0.9990 0.9987 0.9991 0.9988 0.9988 0.9987 0.9986 0.9987 0.9987 0.9988 0.9982 ]
+TRAINING: Epoch #4, Class-0:	 mean Dice of each subepoch:    	[ 0.3724 0.2730 0.4052 0.4587 0.3445 0.3342 0.3530 0.2819 0.4000 0.1830 0.3527 0.1686 0.3970 0.2818 0.4089 0.3617 0.3509 0.3085 0.3345 0.3830 ]
+>>>>>>>>>>>> Reporting Accuracy over whole epoch for Class-1 >>>>>>>>> [This Class (Pos) Vs All Others (Neg)] <<<<<<<<<<<<<
+TRAINING: Epoch #4, Class-1:	 mean accuracy of epoch:	0.9858	=> (TruePos+TrueNeg)/All-Predicted-Voxels
+TRAINING: Epoch #4, Class-1:	 mean sensitivity of epoch:	0.2206	=> TruePos/RealPos
+TRAINING: Epoch #4, Class-1:	 mean precision of epoch:	0.7390	=> TruePos/(TruePos+FalsePos)
+TRAINING: Epoch #4, Class-1:	 mean specificity of epoch:	0.9987	=> TrueNeg/RealNeg
+TRAINING: Epoch #4, Class-1:	 mean Dice of epoch:    	0.3377
+TRAINING: Epoch #4, Class-1:	 mean accuracy of each subepoch:	[ 0.9828 0.9895 0.9865 0.9874 0.9843 0.9874 0.9847 0.9871 0.9869 0.9849 0.9852 0.9857 0.9867 0.9863 0.9866 0.9843 0.9861 0.9853 0.9853 0.9830 ]
+TRAINING: Epoch #4, Class-1:	 mean sensitivity of each subepoch:	[ 0.2443 0.1698 0.2770 0.3173 0.2229 0.2155 0.2309 0.1786 0.2668 0.1069 0.2301 0.0976 0.2657 0.1770 0.2773 0.2371 0.2294 0.1960 0.2145 0.2577 ]
+TRAINING: Epoch #4, Class-1:	 mean precision of each subepoch:	[ 0.7828 0.6952 0.7543 0.8272 0.7588 0.7439 0.7492 0.6687 0.7990 0.6349 0.7549 0.6209 0.7853 0.6903 0.7785 0.7624 0.7463 0.7238 0.7588 0.7457 ]
+TRAINING: Epoch #4, Class-1:	 mean specificity of each subepoch:	[ 0.9986 0.9991 0.9985 0.9989 0.9987 0.9989 0.9986 0.9987 0.9989 0.9990 0.9987 0.9991 0.9988 0.9988 0.9987 0.9986 0.9987 0.9987 0.9988 0.9982 ]
+TRAINING: Epoch #4, Class-1:	 mean Dice of each subepoch:    	[ 0.3724 0.2730 0.4052 0.4587 0.3445 0.3342 0.3530 0.2819 0.4000 0.1830 0.3527 0.1686 0.3970 0.2818 0.4089 0.3617 0.3509 0.3085 0.3345 0.3830 ]
+>>>>>>>>>>>>>>>>>>>>>>>>> End Of Accuracy Report at the end of Epoch <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Trainer: Current learning rate: 1e-04
+Trainer: Current momentum: 0.6
+Trainer: Number of epochs the model has been trained: 5
+SAVING: Epoch #4 finished. Saving CNN model.
+
+WARNING:tensorflow:From /home/shahab/anaconda3/lib/python3.9/site-packages/tensorflow/python/training/saver.py:1067: remove_checkpoint (from tensorflow.python.checkpoint.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+TIMING: Whole Epoch #4 lasted: 2434.3 secs.
+~~~~~~~~~~~~~~~~~~~ End of Training Epoch. Model was Saved. ~~~~~~~~~~~~~~~~~~~~~~~~
+***Start validation by segmenting whole subjects for Epoch #4***
+
+##########################################################################################
+#		  Starting full Segmentation of Validation subjects   			#
+##########################################################################################
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~	 Segmenting subject with index #0 	~~~~~~~~
+ Loading subject with 1st channel at: /home/shahab/Reeda/imagesVl/MSLS_061_0000.nii.gz
+ WARN: Loaded labels are dtype [float64]. Rounding and casting to [int16]!
+Starting to (tile) extract Segments from the images of the subject for Segmentation...
+Finished (tiling) extracting Segments from the images of the subject for Segmentation.
+Ready to make predictions for all image segments (parts).
+Total number of Segments to process:1960
+Processed 0/1960 segments.
+Processed 390/1960 segments.
+Processed 780/1960 segments.
+Processed 1170/1960 segments.
+Processed 1560/1960 segments.
+Processed 1950/1960 segments.
+Processed 1960/1960 segments.
+TIMING: Segmentation of subject: [Forward Pass:] 81.86 secs.
+Saving the new label (segmentation) image for the subject #0
+
+
+ ERROR: Caught exception in do_training(): Image data has type int64, which may cause incompatibilities with other tools. To use this type, pass an explicit header or dtype argument to Nifti1Image().
+
+Traceback (most recent call last):
+  File "/home/shahab/deepmedic/deepmedic/routines/training.py", line 383, in do_training
+    mean_metrics_val_whole_vols = inference_on_whole_volumes(sessionTf,
+  File "/home/shahab/deepmedic/deepmedic/routines/testing.py", line 584, in inference_on_whole_volumes
+    save_pred_seg(pred_seg_u_in_roi,
+  File "/home/shahab/deepmedic/deepmedic/routines/testing.py", line 334, in save_pred_seg
+    savePredImgToNiiWithOriginalHdr(pred_seg,
+  File "/home/shahab/deepmedic/deepmedic/dataManagement/io.py", line 103, in savePredImgToNiiWithOriginalHdr
+    saveImgToNiiWithOriginalHdr(labelImageCreatedByPredictions,
+  File "/home/shahab/deepmedic/deepmedic/dataManagement/io.py", line 52, in saveImgToNiiWithOriginalHdr
+    newLabelImg = nib.Nifti1Image(imgToSave, affine_origin)
+  File "/home/shahab/anaconda3/lib/python3.9/site-packages/nibabel/nifti1.py", line 1838, in __init__
+    alert_future_error(
+  File "/home/shahab/anaconda3/lib/python3.9/site-packages/nibabel/deprecated.py", line 120, in alert_future_error
+    raise error_class(f'{msg} {error_rec}'.strip())
+ValueError: Image data has type int64, which may cause incompatibilities with other tools. To use this type, pass an explicit header or dtype argument to Nifti1Image().
+
+Terminating worker pool.
+
+=======================================================
+=========== Training session finished =================
+=======================================================
+Finished.
+
